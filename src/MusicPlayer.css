@@ -1,0 +1,27 @@
+.MusicPlayer {
+    text-align: center;
+    padding: 20px;
+    background-color:skyblue;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .playlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .song {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  button {
+    margin-left: 10px;
+  }
+  
