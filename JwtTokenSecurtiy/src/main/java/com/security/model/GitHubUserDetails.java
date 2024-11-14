@@ -39,7 +39,7 @@ public class GitHubUserDetails {
 	private String type;
 	@JsonProperty("site_admin")
 	private Boolean siteAdmin;
-	private Object name;
+	private String name;
 	private Object company;
 	private String blog;
 	private Object location;
@@ -215,11 +215,11 @@ public class GitHubUserDetails {
 		this.siteAdmin = siteAdmin;
 	}
 
-	public Object getName() {
+	public String getName() {
 		return name;
 	}
 
-	public void setName(Object name) {
+	public void setName(String name) {
 		this.name = name;
 	}
 
